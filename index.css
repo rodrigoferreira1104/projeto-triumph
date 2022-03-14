@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Sansita+Swashed:wght@400;700&display=swap');
+
+:root {
+    --Claro: #F7F7F7;
+    --MeioClaro: #EEEEEE;
+    --CinzaEscuro: #282828;
+    --Preto: #000000;
+    --Vermelho: #d72323;
+    --Titulo: 'Sansita Swashed', cursive;
+    --Corpo: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--Corpo);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10em;
+    background-color: var(--MeioClaro);
+    color: var(--MeioClaro);
+}
+
+section {
+    background-color: #282828;
+    padding: 30px 40px;
+    border-radius: 20px;   
+    box-shadow: 1px 1px 10px #000000;
+    max-width: 700px;
+    max-height: 800px;
+}
+
+#top {
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#top img {
+    margin: 0 0 0 50px ;
+}
+
+#questão1 label {
+    margin-right: 20px;
+} 
+
+#bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 40px;
+    font-size: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    border-style: none;
+    color: var(--CinzaEscuro);
+    font-weight: 900;
+}
+
+span {
+    border-bottom: var(--Claro) solid 2px;
+    padding: 0 0 3px 0;
+    cursor: pointer;
+}
+
+form {
+    margin: 20px 0;
+    align-items: center ;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+input {
+    margin: 6px 0;
+    
+}
+
+button:hover {
+    background: var(--Vermelho);
+    color: var(--Claro);
+}
+
+p {
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+#imagem {
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 20px;
+} 
